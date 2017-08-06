@@ -1,6 +1,6 @@
 # SteamControllerProfiles
 
-This repository contains my controller profiles to use with `sc-controller`. All configurations may be updated as I use them. Each configuration is stored in its own folder with (maybe) a more in-depth README file.
+This repository contains my controller profiles to use with `sc-controller` (https://github.com/kozec/sc-controller). All configurations may be updated as I use them. Each configuration is stored in its own folder with (maybe) a more in-depth README file.
 
 ## i3 
 
