@@ -1,0 +1,73 @@
+{
+    "autoswitch": [], 
+    "autoswitch_osd": true, 
+    "controllers": {
+        "1": {
+            "icon": "sc-0.svg", 
+            "input_rotation_l": 20, 
+            "input_rotation_r": -20, 
+            "led_level": 80, 
+            "name": "1", 
+            "osd_alignment": 0
+        }, 
+        "2": {
+            "icon": "sc-1.svg", 
+            "input_rotation_l": 20, 
+            "input_rotation_r": -20, 
+            "led_level": 80, 
+            "name": "2", 
+            "osd_alignment": 0
+        }, 
+        "3": {
+            "icon": "sc-2.svg", 
+            "input_rotation_l": 20, 
+            "input_rotation_r": -20, 
+            "led_level": 80, 
+            "name": "3", 
+            "osd_alignment": 0
+        }
+    }, 
+    "enable_sniffing": false, 
+    "fix_xinput": true, 
+    "gesture_colors": {
+        "background": "160c00ff", 
+        "grid": "004000ff", 
+        "line": "ffffff1a"
+    }, 
+    "gui": {
+        "autokill_daemon": false, 
+        "enable_status_icon": true, 
+        "minimize_to_status_icon": true
+    }, 
+    "ignore_serials": true, 
+    "osd_colors": {
+        "background": "729fcf", 
+        "border": "babdb6", 
+        "menuitem_border": "000400", 
+        "menuitem_hilight": "000007", 
+        "menuitem_hilight_border": "024a87", 
+        "menuitem_hilight_text": "729fcf", 
+        "menuseparator": "010901", 
+        "text": "000000"
+    }, 
+    "osk_colors": {
+        "button1": "160282", 
+        "button1_border": "262b5e", 
+        "button2": "162d44", 
+        "button2_border": "27323e", 
+        "hilight": "00688d", 
+        "pressed": "1a9485", 
+        "text": "ffffff"
+    }, 
+    "output": {
+        "axes": [[-32768, 32767], [-32768, 32767], [-32768, 32767], [-32768, 32767], [0, 255], [0, 255], [-1, 1], [-1, 1]], 
+        "buttons": 11, 
+        "name": "Microsoft X-Box 360 pad", 
+        "product": "0x028e", 
+        "rumble": true, 
+        "vendor": "0x045e", 
+        "version": "0x110"
+    }, 
+    "recent_max": 10, 
+    "recent_profiles": ["i3", "XBox Controller with High Precision Camera", "Homefront", "Test", "Don't Starve Together", "Killer is Dead", "Desktop", "XBox Controller", "Diablo 3", "Diablo3"]
+}

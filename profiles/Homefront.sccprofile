@@ -64,15 +64,18 @@
         "feedback": ["LEFT"], 
         "modes": {
             "LB": {
-                "dpad": [{}, {}, {
-                    "action": "mouse(Rels.REL_WHEEL, -1)"
+                "click": true, 
+                "dpad": [{
+                    "action": "button(Keys.KEY_1)"
                 }, {
-                    "action": "mouse(Rels.REL_WHEEL, 1)"
-                }], 
-                "name": "Weapon select"
+                    "action": "button(Keys.KEY_3)"
+                }, {
+                    "action": "button(Keys.KEY_4)"
+                }, {
+                    "action": "button(Keys.KEY_2)"
+                }]
             }
         }, 
-        "sensitivity": [2.0, 2.0, 1.0], 
         "smooth": [8, 0.75, 2]
     }, 
     "stick": {

@@ -1,0 +1,89 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.BTN_GAMEPAD)"
+        }, 
+        "B": {
+            "action": "button(Keys.BTN_EAST)"
+        }, 
+        "BACK": {
+            "action": "button(Keys.BTN_SELECT)"
+        }, 
+        "C": {
+            "action": "menu('Default.menu')", 
+            "doubleclick": {}, 
+            "hold": {
+                "action": "menu('Default.menu')"
+            }
+        }, 
+        "LB": {
+            "action": "button(Keys.BTN_TL)"
+        }, 
+        "LGRIP": {
+            "action": "mouse(Rels.REL_WHEEL, 1)"
+        }, 
+        "RB": {
+            "action": "button(Keys.BTN_TR)"
+        }, 
+        "RGRIP": {
+            "action": "mouse(Rels.REL_WHEEL, -1)"
+        }, 
+        "START": {
+            "action": "button(Keys.BTN_START)"
+        }, 
+        "X": {
+            "action": "button(Keys.BTN_NORTH)"
+        }, 
+        "Y": {
+            "action": "button(Keys.BTN_WEST)"
+        }
+    }, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "dpad": [{
+            "action": "hatup(Axes.ABS_HAT0Y)"
+        }, {
+            "action": "hatdown(Axes.ABS_HAT0Y)"
+        }, {
+            "action": "hatright(Axes.ABS_HAT0X)"
+        }, {
+            "action": "hatleft(Axes.ABS_HAT0X)"
+        }]
+    }, 
+    "pad_right": {
+        "X": {
+            "action": "axis(Axes.ABS_RX)"
+        }, 
+        "Y": {
+            "action": "axis(Axes.ABS_RY)"
+        }
+    }, 
+    "stick": {
+        "X": {
+            "action": "axis(Axes.ABS_X)"
+        }, 
+        "Y": {
+            "action": "axis(Axes.ABS_Y)"
+        }
+    }, 
+    "trigger_left": {
+        "actions": [{
+            "action": "axis(Axes.ABS_Z)", 
+            "levels": [254, 254]
+        }, {
+            "action": "axis(Axes.ABS_Z)"
+        }]
+    }, 
+    "trigger_right": {
+        "actions": [{
+            "action": "axis(Axes.ABS_RZ)", 
+            "levels": [254, 254]
+        }, {
+            "action": "axis(Axes.ABS_RZ)"
+        }]
+    }, 
+    "version": 1.2
+}
