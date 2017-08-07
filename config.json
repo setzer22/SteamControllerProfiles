@@ -36,7 +36,7 @@
     }, 
     "gui": {
         "autokill_daemon": false, 
-        "enable_status_icon": true, 
+        "enable_status_icon": false, 
         "minimize_to_status_icon": true
     }, 
     "ignore_serials": true, 

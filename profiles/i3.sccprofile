@@ -2,14 +2,14 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "menu('i3 Layouts')", 
+            "action": "menu('i3 Layouts',LEFT,LPAD)", 
             "modes": {
                 "LB": {
-                    "action": "hmenu('i3 Workspace Focus',LEFT)", 
+                    "action": "hmenu('i3 Workspace Focus',LEFT,LPAD)", 
                     "name": "Focus Workspace Menu"
                 }, 
                 "RB": {
-                    "action": "hmenu('i3 Workspaces',LEFT)", 
+                    "action": "hmenu('i3 Workspaces',LEFT,LPAD)", 
                     "name": "Move to Workspace Menu"
                 }
             }, 
@@ -26,13 +26,12 @@
         }, 
         "BACK": {
             "action": "button(Keys.KEY_TAB)", 
-            "modes": {
-                "LB": {
-                    "action": "keyboard()", 
-                    "name": "Show Keyboard"
-                }
+            "doubleclick": {}, 
+            "hold": {
+                "action": "keyboard()"
             }, 
-            "name": "Tab"
+            "name": "Tab", 
+            "time": 0.5
         }, 
         "C": {
             "action": "menu('Default.menu')", 
@@ -93,12 +92,33 @@
             "name": "Fullscreen"
         }, 
         "Y": {
-            "action": "shell('qterminal')"
+            "action": "shell('qterminal')", 
+            "doubleclick": {}, 
+            "hold": {
+                "action": "menu('Quick Launchers')"
+            }
         }
     }, 
     "gyro": {}, 
     "is_template": false, 
     "menus": {
+        "Quick Launchers": [{
+            "action": "shell('chromium')", 
+            "id": "item1", 
+            "name": "Internet"
+        }, {
+            "action": "shell('sc-controller')", 
+            "id": "item2", 
+            "name": "Controller Configuration"
+        }, {
+            "action": "shell('clementine')", 
+            "id": "item3", 
+            "name": "Music Player"
+        }, {
+            "action": "shell('steam')", 
+            "id": "item4", 
+            "name": "Steam"
+        }], 
         "i3 Layouts": [{
             "action": "press(button(Keys.KEY_LEFTMETA)); press(button(Keys.KEY_W)); release(button(Keys.KEY_W)); release(button(Keys.KEY_LEFTMETA))", 
             "id": "item1", 
