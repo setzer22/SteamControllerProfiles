@@ -1,0 +1,142 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.KEY_TAB)"
+        }, 
+        "B": {
+            "action": "button(Keys.KEY_Q)", 
+            "name": "Melee"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_U)", 
+            "name": "Click"
+        }, 
+        "C": {
+            "action": "menu('Default.menu')", 
+            "doubleclick": {}, 
+            "hold": {
+                "action": "menu('Default.menu')"
+            }
+        }, 
+        "LB": {
+            "action": "button(Keys.KEY_U)", 
+            "name": "Upgrades"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.BTN_LEFT)", 
+            "name": "Click"
+        }, 
+        "RB": {
+            "action": "mouse(Rels.REL_WHEEL, 1)"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.BTN_LEFT)", 
+            "name": "Click"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.KEY_E)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "name": "Use"
+        }, 
+        "START": {
+            "action": "button(Keys.BTN_LEFT)", 
+            "name": "Click"
+        }, 
+        "X": {
+            "action": "button(Keys.KEY_R)", 
+            "name": "Reload"
+        }, 
+        "Y": {
+            "action": "button(Keys.KEY_F)", 
+            "name": "Flashlight"
+        }
+    }, 
+    "gyro": {
+        "action": "mouse(YAW)", 
+        "sensitivity": [2.0, -2.0, 1.0]
+    }, 
+    "is_template": false, 
+    "menus": {
+        "menu_1": [{
+            "action": "button(Keys.KEY_3)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_1", 
+            "name": "Submachine Gun, ghost_010_wpn_0100.png #232323 #E4E4E4"
+        }, {
+            "action": "button(Keys.KEY_4)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_2", 
+            "name": "Cross Bow, ghost_010_wpn_0340.png #232323 #E4E4E4"
+        }, {
+            "action": "button(Keys.KEY_1)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_3", 
+            "name": "Sword, ghost_010_wpn_0310.png #232323 #E4E4E4"
+        }, {
+            "action": "button(Keys.KEY_2)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_4", 
+            "name": "Pistol, ghost_010_wpn_0080.png #232323 #E4E4E4"
+        }, {
+            "action": "button(Keys.KEY_7)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_5", 
+            "name": "Rocket Launcher, ghost_010_wpn_0140.png #232323 #E4E4E4"
+        }, {
+            "action": "button(Keys.KEY_8)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_6", 
+            "name": "Heart, ghost_040_act_0130.png #232323 #E4E4E4"
+        }, {
+            "action": "button(Keys.KEY_5)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_7", 
+            "name": "Shotgun, ghost_010_wpn_0090.png #232323 #E4E4E4"
+        }, {
+            "action": "button(Keys.KEY_6)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_8", 
+            "name": "Flamethrower, ghost_010_wpn_0120.png #232323 #E4E4E4"
+        }, {
+            "action": "button(Keys.KEY_9)", 
+            "feedback": ["RIGHT", 512, 8], 
+            "id": "item_9", 
+            "name": "Head, ghost_110_social_0130.png #232323 #E4E4E4"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mouse(Rels.REL_WHEEL)", 
+        "circular": true, 
+        "feedback": ["LEFT", 512, 8.0]
+    }, 
+    "pad_right": {
+        "action": "mouse()", 
+        "ball": [], 
+        "feedback": ["LEFT", 209.0, 2.0], 
+        "sensitivity": [1.41, 1.41, 1.41], 
+        "smooth": [8, 0.75, 2]
+    }, 
+    "stick": {
+        "X": {
+            "action": "axis(Axes.ABS_X)"
+        }, 
+        "Y": {
+            "action": "axis(Axes.ABS_Y)"
+        }, 
+        "sensitivity": [1.0, -1.0, 1.0]
+    }, 
+    "trigger_left": {
+        "actions": [{
+            "action": "button(Keys.KEY_X)", 
+            "levels": [254, 255]
+        }, {
+            "action": "axis(Axes.ABS_Z)"
+        }]
+    }, 
+    "trigger_right": {
+        "action": "button(Keys.BTN_LEFT)", 
+        "levels": [254, 255]
+    }, 
+    "version": 1.2
+}

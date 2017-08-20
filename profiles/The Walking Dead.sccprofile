@@ -1,0 +1,89 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.BTN_LEFT)"
+        }, 
+        "C": {
+            "action": "menu('Default.menu')", 
+            "doubleclick": {}, 
+            "hold": {
+                "action": "menu('Default.menu')"
+            }
+        }, 
+        "LB": {
+            "action": "mouse(Rels.REL_WHEEL, -1)"
+        }, 
+        "RB": {
+            "action": "mouse(Rels.REL_WHEEL, 1)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ESC)"
+        }, 
+        "X": {
+            "action": "button(Keys.KEY_Q)"
+        }, 
+        "Y": {
+            "action": "button(Keys.KEY_E)"
+        }
+    }, 
+    "gyro": {
+        "modes": {
+            "RPADTOUCH": {
+                "action": "mouse(YAW)", 
+                "sensitivity": [1.0, -1.0, 1.0]
+            }
+        }
+    }, 
+    "is_template": false, 
+    "menus": {
+        "Choices": [{
+            "action": "button(Keys.KEY_1)", 
+            "id": "item1", 
+            "name": "1"
+        }, {
+            "action": "button(Keys.KEY_2)", 
+            "id": "item2", 
+            "name": "2"
+        }, {
+            "action": "button(Keys.KEY_3)", 
+            "id": "item3", 
+            "name": "3"
+        }, {
+            "action": "button(Keys.KEY_4)", 
+            "id": "item4", 
+            "name": "4"
+        }]
+    }, 
+    "pad_left": {
+        "action": "gridmenu('Choices')", 
+        "feedback": ["LEFT", 145, 3.0]
+    }, 
+    "pad_right": {
+        "action": "mouse()", 
+        "ball": [], 
+        "feedback": ["LEFT", 109, 2.0], 
+        "sensitivity": [1.5, 1.5, 1.0], 
+        "smooth": [8, 0.75, 2]
+    }, 
+    "stick": {
+        "dpad": [{
+            "action": "button(Keys.KEY_W)"
+        }, {
+            "action": "button(Keys.KEY_S)"
+        }, {
+            "action": "button(Keys.KEY_A)"
+        }, {
+            "action": "button(Keys.KEY_D)"
+        }]
+    }, 
+    "trigger_left": {
+        "action": "button(Keys.BTN_RIGHT)", 
+        "levels": [254, 255]
+    }, 
+    "trigger_right": {
+        "action": "button(Keys.BTN_LEFT)", 
+        "levels": [254, 255]
+    }, 
+    "version": 1.2
+}

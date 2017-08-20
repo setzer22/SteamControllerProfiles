@@ -1,12 +1,52 @@
 {
     "_": "", 
     "buttons": {
+        "A": {
+            "action": "button(Keys.KEY_Q)", 
+            "name": "Potion"
+        }, 
+        "B": {
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Close all windows"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_TAB)", 
+            "name": "Map"
+        }, 
         "C": {
             "action": "menu('Default.menu')", 
             "doubleclick": {}, 
             "hold": {
                 "action": "menu('Default.menu')"
             }
+        }, 
+        "LB": {
+            "action": "button(Keys.KEY_Q)", 
+            "name": "Potion"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Hold"
+        }, 
+        "RB": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Shift"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Floor item stats"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Options"
+        }, 
+        "X": {
+            "action": "button(Keys.KEY_S)", 
+            "name": "Skillset"
+        }, 
+        "Y": {
+            "action": "button(Keys.KEY_I)", 
+            "name": "Inventory"
         }
     }, 
     "gyro": {
@@ -19,13 +59,40 @@
     }, 
     "is_template": false, 
     "menus": {}, 
-    "pad_left": {}, 
+    "pad_left": {
+        "click": true, 
+        "dpad": [{
+            "action": "button(Keys.KEY_3)"
+        }, {
+            "action": "button(Keys.KEY_2)"
+        }, {
+            "action": "button(Keys.KEY_1)", 
+            "name": "1"
+        }, {
+            "action": "button(Keys.KEY_4)", 
+            "name": "4"
+        }], 
+        "name": "Spec Abi"
+    }, 
     "pad_right": {
         "action": "mouse()", 
         "ball": [21.135], 
-        "feedback": ["LEFT", 80, 2.0]
+        "feedback": ["LEFT", 80, 2.0], 
+        "sensitivity": [1.8, 1.8, 1.0], 
+        "smooth": [8, 0.75, 2]
     }, 
-    "stick": {}, 
+    "stick": {
+        "dpad": [{
+            "action": "button(Keys.KEY_PAGEUP)"
+        }, {
+            "action": "button(Keys.KEY_PAGEDOWN)"
+        }, {
+            "action": "button(Keys.KEY_SPACE)"
+        }, {
+            "action": "button(Keys.KEY_ENTER)"
+        }], 
+        "name": "Chat Log"
+    }, 
     "trigger_left": {
         "action": "button(Keys.BTN_RIGHT)", 
         "levels": [254, 255], 
@@ -33,7 +100,7 @@
     }, 
     "trigger_right": {
         "action": "button(Keys.BTN_LEFT)", 
-        "levels": [254, 255], 
+        "levels": [123, 255], 
         "name": "Basic Skill / Left Click"
     }, 
     "version": 1.2

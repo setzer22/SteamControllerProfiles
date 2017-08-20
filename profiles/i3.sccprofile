@@ -233,7 +233,8 @@
         "action": "mouse()", 
         "ball": [], 
         "feedback": ["LEFT", 128, 3.0], 
-        "sensitivity": [1.5, 1.5, 1.0]
+        "sensitivity": [1.5, 1.5, 1.0], 
+        "smooth": [8, 0.75, 2]
     }, 
     "stick": {
         "dpad": [{

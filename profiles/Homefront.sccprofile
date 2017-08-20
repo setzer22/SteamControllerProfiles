@@ -1,6 +1,9 @@
 {
     "_": "", 
     "buttons": {
+        "B": {
+            "action": "button(Keys.KEY_LEFTCTRL)"
+        }, 
         "C": {
             "action": "menu('Default.menu')", 
             "doubleclick": {}, 
@@ -45,7 +48,7 @@
         "modes": {
             "RPADTOUCH": {
                 "action": "mouse(YAW)", 
-                "sensitivity": [0.6, -0.6, 1.0]
+                "sensitivity": [1.0, -1.0, 1.0]
             }
         }
     }, 
@@ -53,7 +56,10 @@
     "menus": {}, 
     "pad_left": {
         "click": true, 
-        "dpad": [{}, {
+        "dpad": [{
+            "action": "button(Keys.KEY_V)", 
+            "name": "Melee"
+        }, {
             "action": "button(Keys.KEY_G)", 
             "name": "Grenade"
         }, {}, {}]
@@ -61,10 +67,9 @@
     "pad_right": {
         "action": "mouse()", 
         "ball": [], 
-        "feedback": ["LEFT"], 
+        "feedback": ["LEFT", 208.0, 2.0], 
         "modes": {
             "LB": {
-                "click": true, 
                 "dpad": [{
                     "action": "button(Keys.KEY_1)"
                 }, {

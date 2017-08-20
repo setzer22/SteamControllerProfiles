@@ -1,0 +1,84 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.KEY_E)", 
+            "name": "Support Skill"
+        }, 
+        "B": {
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Cancel"
+        }, 
+        "C": {
+            "action": "menu('Default.menu')", 
+            "doubleclick": {}, 
+            "hold": {
+                "action": "menu('Default.menu')"
+            }
+        }, 
+        "LB": {
+            "action": "button(Keys.KEY_E)"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Sprint-like Skill"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Jump"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Menu / Pause"
+        }, 
+        "X": {
+            "action": "button(Keys.KEY_R)", 
+            "name": "Reload"
+        }, 
+        "Y": {
+            "action": "button(Keys.KEY_Q)", 
+            "name": "Ultimate"
+        }
+    }, 
+    "gyro": {
+        "modes": {
+            "RPADTOUCH": {
+                "action": "mouse(YAW)", 
+                "sensitivity": [1.0, -1.0, 1.0]
+            }
+        }
+    }, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {}, 
+    "pad_right": {
+        "action": "mouse()", 
+        "ball": [], 
+        "feedback": ["LEFT", 256, 2.0], 
+        "name": "Aim", 
+        "smooth": [8, 0.75, 2]
+    }, 
+    "stick": {
+        "dpad": [{
+            "action": "button(Keys.KEY_W)"
+        }, {
+            "action": "button(Keys.KEY_S)"
+        }, {
+            "action": "button(Keys.KEY_A)"
+        }, {
+            "action": "button(Keys.KEY_D)"
+        }], 
+        "name": "Move"
+    }, 
+    "trigger_left": {
+        "action": "button(Keys.BTN_RIGHT)", 
+        "levels": [254, 255], 
+        "name": "Secondary Skill"
+    }, 
+    "trigger_right": {
+        "action": "button(Keys.BTN_LEFT)", 
+        "levels": [254, 255], 
+        "name": "Shoot"
+    }, 
+    "version": 1.2
+}
